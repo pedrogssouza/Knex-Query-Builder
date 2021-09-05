@@ -7,6 +7,9 @@ const knex = require("knex")({
     password:
       "667069e0385f1b6cef3f5eec0767fade24659fc623e68374bc3f130c5736bc7e",
     port: 5432,
+    ssl: {
+      rejectUnauthorized: false,
+    },
   },
 });
 
